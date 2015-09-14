@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrapbutton="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/logo"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Game Name"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal">
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more"
+                rv_centered="true"
+                android:layout_width="170dp"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/startGame"
+                    style="@style/Button"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/start"
+                    android:textSize="25sp" />
+
+            </com.andexert.library.RippleView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+            android:gravity="center_vertical|center_horizontal">
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more1"
+                rv_centered="true"
+                android:layout_width="170dp"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/leaderBoard"
+                    style="@style/Button"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leaderboard"
+                    android:textSize="25sp" />
+
+            </com.andexert.library.RippleView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal">
+
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more3"
+                rv_centered="true"
+                android:layout_width="170dp"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/rate"
+                    style="@style/Button"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rate"
+                    android:textSize="25sp" />
+
+            </com.andexert.library.RippleView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical|center_horizontal">
+
+
+
+            <com.andexert.library.RippleView
+                android:id="@+id/more4"
+                rv_centered="true"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp">
+
+                <Button
+                    android:id="@+id/button"
+                    style="@style/Button"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_us"
+                    android:textSize="25sp" />
+
+            </com.andexert.library.RippleView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/studio"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/studio_name"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

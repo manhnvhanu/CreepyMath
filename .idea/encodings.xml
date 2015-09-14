@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/java/com/luckyluke/creepymath/GamePlay.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/java/com/luckyluke/creepymath/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/java/com/luckyluke/creepymath/Utility.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/drawable" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/drawable/check.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/drawable/check_small.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/drawable/sound.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/drawable/soundmute.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/drawable/x_small.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/layout" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/menu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/mipmap-hdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/mipmap-mdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/mipmap-xhdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/mipmap-xxhdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/values" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/values-v21" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creepymath/src/main/res/values-w820dp" charset="UTF-8" />
+  </component>
+</project>
